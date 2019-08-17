@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src=jquery-3.3.1.min.js></script>
+    <!-- for favicon -->
+    <link rel="shortcut icon" href="./static/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="forms.css">
+    <title>Sign In</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <header>
+            <div class="container">
+                <div class="logo">
+                    <a href="index.html">
+                    <img src="./static/logo.png" alt="Questioner Logo">
+                    </a>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a class="header-link" href="index.html">Home</a></li>
+                        <li><a class="header-link" href="#">About</a></li>
+                        <li><a class="header-link" href="#">Book Travel</a></li>
+                        <li><a class="btn btn-outline-primary" href="signup.html">Register</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div class="card signup-wrap">
+                <div class="top">
+                    <span id="error" style="color:red; display: none">Unable to signin!! your username or password is incorrect</span>
+                    <h1>Sign in</h1>
+                </div>
+                <form>
+                <div class="input-set">
+                    <label for="name">Username</label>
+                    <input type="text" name="username" id="username" tabindex="0" autocorrect="off" spellcheck="false"
+                        autocapitalize="off" value="" autofocus="" placeholder="e.g., morayo01" required>
+                </div>
+                
+                <div class="input-set">
+                    <label for="name">Password</label>
+                    <input type="password" name="password" id="password" tabindex="0" placeholder="e.g., ••••••••••••" required>
+
+                </div>
+                <div class="input-set">
+                    <input id="signup-btn" tabindex="0" type="submit" class="btn btn-secondary" value="SIGN IN" required>
+                </div>
+            </form>
+            </div>
+        </main>
+
+        <footer>
+            <div class="copyright">
+                © 2018-2019 Copyright
+            </div>
+            <a href="">Terms and Conditions</a> | <a href="">Policy</a> | <a href="">Contacts</a>
+        </footer>
+    </div>
+
+    <script src="signin.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+{
+  "admin": [
+    {
+      "id": 1,
+      "adminId": "admin123",
+      "password": "adminPass"
+    }
+  ],
+  "users": [
+    {
+      "title": "Mr",
+      "fullName": "Moses Tosin",
+      "userName": "mosestosin",
+      "email": "mosestosin35@gmail.com",
+      "phoneNumber": "08185415457",
+      "password": "5675",
+      "id": 1
+    },
+    {
+      "title": "Mrs",
+      "fullName": "Abikoye Kehinde Omolola",
+      "userName": "abikskehinde",
+      "email": "abikskehinde@gmail.com",
+      "phoneNumber": "08104004507",
+      "password": "9854",
+      "id": 2
+    },
+    {
+      "title": "Mrs",
+      "fullName": "Monisola Abikoye",
+      "userName": "mosolaabikoye",
+      "email": "moniabiksgmail.com",
+      "phoneNumber": "08104004507",
+      "password": "3456",
+      "id": 3
+    },
+    {
+      "title": "Mr",
+      "fullName": "John Adedara Emmanuel",
+      "userName": "adedara20",
+      "email": "johnadedara20@gmail.com",
+      "phoneNumber": "09067543265",
+      "password": "6765",
+      "id": 4
+    },
+    {
+      "title": "Mr",
+      "fullName": "Elijah",
+      "userName": "Shola",
+      "email": "elijahshola12@gmail.com",
+      "phoneNumber": "08065456743",
+      "password": "8743",
+      "id": 5
+    },
+    {
+      "title": "bsc",
+      "fullName": "yomi",
+      "userName": "abayomi ",
+      "email": "judge_craig010@yahoo.com",
+      "phoneNumber": "07080998815",
+      "password": "123",
+      "id": 6
+    }
+  ]
+}
